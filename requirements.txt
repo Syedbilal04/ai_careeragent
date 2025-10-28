@@ -1,50 +1,22 @@
-# fastapi
-# uvicorn
-# langchain
-# openai
-# python-dotenv
-# langchain_openai
-# langchain_community
-# huggingface
-
-
-
 # ============================================
 # CAREER AGENT - PYTHON DEPENDENCIES
 # ============================================
 
-# -----------------------------------------
-# 🚀 Core Web Framework
-# -----------------------------------------
-fastapi==0.104.1                    # Main web framework
-uvicorn[standard]==0.24.0           # ASGI server for FastAPI
-python-multipart==0.0.6             # Form data handling
-jinja2==3.1.2                       # HTML template engine
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+jinja2==3.1.2
 
-# -----------------------------------------
-# 🤖 AI & LangChain Stack  
-# -----------------------------------------
-langchain==0.1.0                    # Main LangChain framework
-langchain-openai==0.0.5             # OpenAI integration for LangChain
-langchain-community==0.0.10         # Community integrations
-langchain-core==0.1.0               # Core LangChain components
-openai==1.6.1                       # OpenAI Python SDK
+# 🤖 AI
+langchain==0.1.0
+langchain-openai==0.0.5
+langchain-community==0.0.10
+langchain-core==0.1.0
+openai==1.6.1
 
-# -----------------------------------------
-# 🔧 Data & Configuration
-# -----------------------------------------
-pydantic==2.5.0                     # Data validation and serialization
-python-dotenv==1.0.0                # Environment variables from .env
-
-# -----------------------------------------
-# 🤖 Hugging Face Integration
-# -----------------------------------------
-huggingface-hub==0.19.4             # Hugging Face model hub
-transformers==4.36.0                # Hugging Face transformers (if needed)
-
-# -----------------------------------------
-# 📊 Optional but Recommended
-# -----------------------------------------
-email-validator==2.1.0              # Email validation for Pydantic
-requests==2.31.0                    # HTTP requests (often used)
-motor
+# Config & Utils
+pydantic==2.5.0
+python-dotenv==1.0.0
+email-validator==2.1.0
+requests==2.31.0
+motor==3.3.1
